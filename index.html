@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body onresize="camera.resize()">
+        <canvas id="maincanvas" onmousedown="onMouseDown(event)" onmouseup="onMouseUp(event)" onmousemove="onMouseMove(event)" ontouchstart="onMouseDown(event)" ontouchend="onMouseUp(event)" ontouchmove="onMouseMove(event)"></canvas>
+        <canvas id="gridcanvas"></canvas>
+        <canvas id="btncanvas"></canvas>
+    </body>
+    <script src="js/main.js"></script>
+</html>
